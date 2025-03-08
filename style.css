@@ -31,3 +31,56 @@ nav a{
 nav a:hover{
     background-color: #7d677e;
 }
+main{
+    width: 80%;
+    margin: 2rem auto;
+}
+/*estilo das aba de produto bebida pedido e contato*/
+
+.categoria{
+    margin-bottom: 2rem;
+}
+.produto{
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.produto img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+.preco{
+    font-weight: bold;
+    color: #ff9800;
+    margin-bottom: 1rem;
+}
+.adicionar{
+    background-color: #ffca28;
+    color: #333;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.adicionar:hover{
+    background-color: #ffdd75;
+}
+
+/*estilo de responsividade*/
+@media(min-width: 768px){
+    main{
+        width: 60%;
+    }
+    .categoria{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px,ilf));
+        gap: 1rem;
+    }
+}
