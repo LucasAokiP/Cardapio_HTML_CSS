@@ -5,8 +5,8 @@ body{
     background-color: #f4f4f4;
 }
 header{
-    background-color: #ff9800;
-    color: #fff;
+    background-color: #360b41;
+    color: #ccc9aa;
     text-align: center;
     padding: 1rem 0;
 }
@@ -23,11 +23,11 @@ header{
 }
 nav a{
     text-decoration: none;
-    color: #333;
+    color: #CCC9AA;
     margin: 0 1rem;
     padding: 0.5rem 1rem;
-    background-color: #ffca28;
+    background-color: #4f2c4d;
 }
 nav a:hover{
-    background-color: #ffd967;
+    background-color: #7d677e;
 }
