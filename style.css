@@ -72,7 +72,13 @@ main{
 .adicionar:hover{
     background-color: #ffdd75;
 }
-
+footer{
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #360b41;
+    color: #fff;
+    font-weight: bold;
+}
 /*estilo de responsividade*/
 @media(min-width: 768px){
     main{
