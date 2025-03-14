@@ -72,9 +72,31 @@ main{
 .adicionar:hover{
     background-color: #ffdd75;
 }
+#pedido{
+    background-color: #ccc9aa;
+    padding: 1rem;
+    border-radius: 10px;
+}
+#Lista_Pedido{
+    list-style: none;
+    padding: 0;
+}
+#contato{
+    text-align: center;
+    margin-top: 2rem;
+}
+.redes_sociais a{
+    display: inline-block;
+    background-color: #ccc9aa;
+    color: #333;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 0.5rem;
+}
 footer{
     text-align: center;
-    padding: 1rem 0;
+    padding: 1rem 0rem;
     background-color: #360b41;
     color: #fff;
     font-weight: bold;
