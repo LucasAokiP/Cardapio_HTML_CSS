@@ -11,7 +11,7 @@ header{
     padding: 1rem 0;
 }
 .banner_content{
-    width: 80%;
+    width: 100%;
 }
 .banner h1{
     font-size: 3rem;
@@ -24,7 +24,7 @@ header{
 nav a{
     text-decoration: none;
     color: #CCC9AA;
-    margin: 0 1rem;
+    margin: 0rem 1rem;
     padding: 0.5rem 1rem;
     background-color: #4f2c4d;
 }
